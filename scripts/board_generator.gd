@@ -13,6 +13,7 @@ var board : Board
 # Choisir la map à charger
 func load_map(map_config: MapConfig):
 	current_map = map_config
+	current_map.shuffle_tiles()
 
 # Générer le plateau en fonction de la map actuelle
 func generate_board():
