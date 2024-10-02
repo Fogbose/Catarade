@@ -18,7 +18,7 @@ func shuffle_tiles():
 	var flat_tiles = []  # Tableau plat pour stocker les tuiles non nulles
 	for row in hexagon_layout:
 		for tile in row:
-			if tile != null:
+			if tile != null and tile != HexagonType.Type.WATER:
 				flat_tiles.append(tile)
 	
 	# Mélanger les tuiles
@@ -28,6 +28,6 @@ func shuffle_tiles():
 	var tile_index = 0
 	for row in range(num_rows):
 		for col in range(num_cols):
-			if hexagon_layout[row][col] != null:
+			if hexagon_layout[row][col] != null and hexagon_layout[row][col] != HexagonType.Type.WATER:
 				hexagon_layout[row][col] = flat_tiles[tile_index]
 				tile_index += 1

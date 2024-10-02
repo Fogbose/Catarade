@@ -33,6 +33,8 @@ func set_hexagon_type(type: HexagonType):
 			sprite.texture = preload("res://assets/sprites/mountain.png")
 		HexagonType.Type.PASTURE:
 			sprite.texture = preload("res://assets/sprites/pasture.png")
+		HexagonType.Type.WATER:
+			sprite.texture = preload("res://assets/sprites/water.png")
 		# Optionally, handle an unknown type
 		_:
 			push_error("Unknown hexagon type: %d" % hexagon_type.type)

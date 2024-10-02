@@ -2,10 +2,10 @@ extends Resource
 class_name HexagonType
 
 # Enum to define different hexagon types in the game
-enum Type { BRICK, DESERT, FIELD, FOREST, MOUNTAIN, PASTURE }
+enum Type { BRICK, DESERT, FIELD, FOREST, MOUNTAIN, PASTURE, WATER }
 
 # Stores the current type of the hexagon (default is FOREST)
-var type : int = Type.BRICK
+var type : int = Type.WATER
 
 # Sets the hexagon type, ensuring the input is valid
 # @param new_type: int - The new type to assign to the hexagon
