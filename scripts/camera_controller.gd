@@ -8,9 +8,9 @@ var move_sensitivity = 500.0
 # Zoom de la caméra avec la molette de la souris
 func _input(event):
 	if event is InputEventMouseButton:
-		if event.button_index == BUTTON_WHEEL_UP:
+		if event.button_index == MOUSE_BUTTON_WHEEL_UP:
 			zoom *= 1 - zoom_sensitivity
-		elif event.button_index == BUTTON_WHEEL_DOWN:
+		elif event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
 			zoom *= 1 + zoom_sensitivity
 
 # Déplacement de la caméra avec les touches fléchées

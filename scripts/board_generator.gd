@@ -24,7 +24,7 @@ func generate_board():
 
 	for row in range(current_map.num_rows):
 		for col in range(current_map.num_cols):
-			var hexagon_scene = preload("res://scenes/HexagonScene.tscn").instance()
+			var hexagon_scene = preload("res://scenes/HexagonScene.tscn").instantiate()
 			
 			var position = Vector2(col * hexagon_spacing.x + (row % 2) * hexagon_spacing.x / 2, row * hexagon_spacing.y * 1.5 / 2)
 			hexagon_scene.position = position
