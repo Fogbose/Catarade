@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Catan"
-run/main_scene="res://scenes/BoardScene.tscn"
+run/main_scene="res://scenes/GameScene.tscn"
 config/features=PackedStringArray("4.3")
 config/icon="res://icon.png"
+
+[autoload]
+
+DataManager="*res://scripts/core/DataManager.gd"
 
 [gui]
 

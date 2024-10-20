@@ -1,6 +1,0 @@
-res://default_env.tres
-res://scenes/BoardScene.tscn
-res://configuration/catan_base_map.tres
-res://modeles/Board.gd
-res://scenes/TileScene.tscn
-res://modeles/Tile.gd
