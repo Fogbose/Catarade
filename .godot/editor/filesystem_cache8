@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729410445
+::res://::1729412201
 default_env.tres::Environment::2384529197712276087::1728745861::0::1::::<><>::
 icon.png::CompressedTexture2D::392037390526359366::1727806094::1727972009::1::::<><>::
-README.md::TextFile::-1::1727880428::0::1::::<><>::
+README.md::TextFile::-1::1729410962::0::1::::<><>::
 ::res://archives/::1728744850
 camera_controller.gd::GDScript::-1::1727971981::0::1::::<>Camera2D<>::
 game_scene.gd::GDScript::-1::1728139215::0::1::::<>Node2D<>::

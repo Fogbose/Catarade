@@ -1,0 +1,12 @@
+res://default_env.tres
+res://scenes/GameScene.tscn
+res://configurations/default_mapConfig.tres
+res://configurations/default_rulesConfig.tres
+res://configurations/default_gameConfig.tres
+res://archives/game_scene.gd
+res://scenes/BoardScene.tscn
+res://scenes/MainMenu.tscn
+res://scenes/PlayerUI.tscn
+res://scenes/TileScene.tscn
+res://scenes/TradeMenu.tscn
+res://archives/board/Tile.gd

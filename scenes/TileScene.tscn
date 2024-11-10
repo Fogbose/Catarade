@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dun1daerrcm0o"]
-
-[ext_resource type="Script" path="res://archives/board/Tile.gd" id="1_la0pn"]
-
-[node name="TileScene" type="Node2D"]
-script = ExtResource("1_la0pn")
-
-[node name="TileSprite" type="Sprite2D" parent="."]
