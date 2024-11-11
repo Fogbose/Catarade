@@ -1,0 +1,50 @@
+# Fichiers Godot temporaires et de configuration utilisateur
+.export/
+imported/
+export_presets.cfg
+.godot/
+.editor_settings-3.tres
+.editor_settings-4.tres
+.editor_settings-*.tres
+.editor_settings-*.cfg
+.config/
+
+# Fichiers de cache et de builds
+*.import
+*.gen.*
+.cache/
+
+# Système et dossiers temporaires
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.tmp
+*.bak
+
+# Bibliothèques et plugins externes (si tu veux les ignorer)
+addons/*/bin/
+
+# Python / scripts si utilisés
+__pycache__/
+*.pyc
+*.pyo
+
+# Exportations binaires (exécutables de jeu compilés)
+*.exe
+*.apk
+*.ipa
+*.app
+*.pck
+*.zip
+*.tar.gz
+
+# Fichiers spécifiques à IDE (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de logs
+*.log
+
