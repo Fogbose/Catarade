@@ -48,3 +48,5 @@ __pycache__/
 # Fichiers de logs
 *.log
 
+# Fichiers personnels
+archives/
